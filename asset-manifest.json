@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nav-folio/static/css/main.d62c3759.css",
+    "main.js": "/nav-folio/static/js/main.4d2961fc.js",
+    "static/js/787.128fc6e9.chunk.js": "/nav-folio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Naveen_Meena_SVNIT.pdf": "/nav-folio/static/media/Naveen_Meena_SVNIT.8e3cc457f0d3a664736f.pdf",
+    "static/media/webber.png": "/nav-folio/static/media/webber.0f86978122212491b5a4.png",
+    "static/media/instagram.png": "/nav-folio/static/media/instagram.abaad5368021207f4885.png",
+    "static/media/google.png": "/nav-folio/static/media/google.38ece613cf45bd1f9247.png",
+    "index.html": "/nav-folio/index.html",
+    "main.d62c3759.css.map": "/nav-folio/static/css/main.d62c3759.css.map",
+    "main.4d2961fc.js.map": "/nav-folio/static/js/main.4d2961fc.js.map",
+    "787.128fc6e9.chunk.js.map": "/nav-folio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d62c3759.css",
+    "static/js/main.4d2961fc.js"
+  ]
+}
