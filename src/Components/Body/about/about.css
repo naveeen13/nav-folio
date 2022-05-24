@@ -1,0 +1,30 @@
+.about-up{
+    font-size: 14px;
+    font-weight: 550;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 20px 20px ;
+}
+
+.about-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    height: 300px;
+}
+
+@media only screen and (max-width:720px){
+.about-up{
+    font-size: 14px;
+    flex-direction: column-reverse;
+}
+
+.photo{
+    height: 200px;
+}
+}

@@ -1,0 +1,64 @@
+.project-cards{
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+.project-card{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.project-title{
+    margin:10px 0px;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.other-than-title{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-desc{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    margin: 0px 20px;
+    align-items: center;
+}
+
+.project-link{
+    background: pink;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding: 5px 5px;
+}
+
+.project-pic{
+    border-radius: 20px;
+    height:150px;
+    padding: 10px 10px;
+}
+
+@media only screen and (max-width:720px) {
+.other-than-title{
+    flex-direction: column;
+}
+
+.project-title{
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.project-pic{
+    height:100px;
+}
+
+}

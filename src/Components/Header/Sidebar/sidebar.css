@@ -1,0 +1,43 @@
+.header-options > a{
+    text-decoration: None;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 4px;
+}
+
+.header-options{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.header-options:last-child{
+    margin-right: 0px;
+}
+
+.header-options > a:hover{
+    color:yellow;
+}
+
+.option-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+ 
+@media only screen and (max-width:720px){
+.header-options{
+    display: flex;
+    flex-direction:column;
+    font-size: 14px;
+}
+
+.header-options > a{
+    color:white;
+}
+
+}

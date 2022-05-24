@@ -1,0 +1,25 @@
+.skillcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.skillcard{
+    display: flex;
+    flex-direction:column;
+    margin: 10px 10px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+@media only screen and (max-width:720px){
+.skill-photo{
+    height:50px;
+    width: 50px;
+}
+}

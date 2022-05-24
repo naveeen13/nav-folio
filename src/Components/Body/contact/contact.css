@@ -1,0 +1,21 @@
+.contact-icon{
+    height: 60px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding:20px 0px;
+}
+
+.contact-site{
+    margin:5px 5px;
+}
+
+@media only screen and (max-width:720px){
+.contact-icon{
+    height:35px;
+}
+}
