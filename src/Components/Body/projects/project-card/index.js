@@ -20,7 +20,10 @@ export default function ProjectCard() {
                                 <img src={(opt.img)} className="project-pic"/>
                             </div>
                             <div className='project-desc'>
-                                <div className='project-link'>{opt.link}</div>
+                                <div className='project-links'>
+                                <div className='project-link'><a href={opt.link}>Link</a></div>
+                                <div className='project-link'><a href={opt.github}>Github-Repo</a></div>
+                                </div>
                                 <div className='project-info'>{opt.info}</div>
                             </div>
                         </div>

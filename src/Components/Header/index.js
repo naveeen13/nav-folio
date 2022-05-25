@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className='header'>
             <div className='header-title'>
-                Naveen Meena
+                <span className='n'>N</span><span className='A'>A</span><span className='v'>V</span>
             </div>
             <div className='header-options-web'>
                 <Web/>
